@@ -1,0 +1,22 @@
+.Counter {
+    padding: 100px;
+
+}
+
+button {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.Tilt {
+    margin: 0 auto;
+    border: 1px solid #000;
+    width: 350px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 4px 4px 2px 3px #ccc;
+    background: wheat;
+}
+
+
