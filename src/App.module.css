@@ -1,5 +1,11 @@
 .App {
-    justify-content: center;
-    margin: 0 auto;
-    /*border: 1px solid #000*/
+    position: absolute;
+    /*margin: 0 auto;*/
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #C31432 0%, #240B36 100%);
 }

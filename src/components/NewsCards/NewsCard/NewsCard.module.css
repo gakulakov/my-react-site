@@ -1,0 +1,45 @@
+.OuterCard {
+    width: 25%;
+    height: 80%;
+
+    background: linear-gradient(180deg, #8A2387 0%, #E94057 49.48%, #F27121 100%);
+    box-shadow: 4px 4px 15px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 57px;
+    margin: 0 15px 0 15px;
+    display: block;
+    color: #cccccc;
+
+}
+
+.Inner {
+    margin: 30px;
+}
+
+.Text {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    color: #fff;
+}
+
+.View {
+    text-align: right;
+}
+
+.Button {
+    height: 25px;
+    width: 50px;
+    border-radius: 12px;
+    border: none;
+    background: #3DCBF8;
+}
+
+.Button :active, :focus {
+    outline: none;
+}
+
+.Button:hover {
+    box-shadow: 0 0px 6px 6px #ccc;
+    cursor: pointer;
+    transition: box-shadow, .77s ease-in;
+}

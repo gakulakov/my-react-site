@@ -1,0 +1,12 @@
+.Header {
+    text-align: center;
+    background: #ccc;
+}
+
+ul {
+   display: inline-block;
+}
+
+li {
+    margin: 10px;
+}
