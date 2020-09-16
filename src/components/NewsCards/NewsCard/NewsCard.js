@@ -1,28 +1,33 @@
 import React from "react";
 import classes from "./NewsCard.module.css";
 import Tilt from "react-tilt";
+import logo from "./img/logo.png";
 
 const NewsCard = (props) => {
-  const tiltOptions = {
+  const tiltOptionsAll = {
     max: 25,
     reverse: true,
     transition: false,
     transformStyle: "preserve-3d",
   };
+
+  const tiltOptionsButton = {
+    max: 0,
+    reverse: true,
+    transition: true,
+    transformStyle: "preserve-3d",
+  };
   return (
-    <Tilt className={classes.OuterCard} options={tiltOptions}>
-      <div className="Tilt-inner">
-        <div>
-          <div className={classes.Inner}>
-            <div className={classes.Text}>
-              <h1>{props.label}</h1>
-            </div>
-            <div className={classes.View}>
-              <button className={classes.Button}>View</button>
-            </div>
-          </div>
-        </div>
+    <Tilt className={classes.OuterCard} options={tiltOptionsAll}>
+      <div className={classes.CardImg}>
+        <img src={logo} alt={logo} />
       </div>
+      <div className={classes.Text}>
+        <h1>{props.label}</h1>
+      </div>
+      <Tilt className={classes.View} options={tiltOptionsButton}>
+        <button className={classes.Button}>View</button>
+      </Tilt>
     </Tilt>
   );
 };

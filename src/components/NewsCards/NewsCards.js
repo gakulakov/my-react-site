@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import classes from "./NewsCards.module.css";
 import NewsCard from "./NewsCard/NewsCard";
-import Tilt from "react-tilt";
 
 export default class NewsCards extends Component {
   render() {
